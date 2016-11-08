@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.simpleformedit.web.screens.ItemFrame"
+        messagesPack="com.company.simpleformedit.web.screens">
+    <layout>
+        <groupBox>
+            <hbox margin="false,false,true,false"
+                  spacing="true"
+                  width="100%">
+                <label stylename="h2"
+                       value="Customer"/>
+                <button align="MIDDLE_RIGHT"
+                        icon="icons/edit.png"
+                        invoke="switchMode"/>
+            </hbox>
+            <label id="valueLabel"/>
+            <textField id="valueField"
+                       visible="false"/>
+        </groupBox>
+    </layout>
+</window>
